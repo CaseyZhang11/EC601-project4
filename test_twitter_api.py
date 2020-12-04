@@ -1,7 +1,6 @@
 
 import twitter_api
 
-weibo_client = weibo_api.init()
 
 fetched_tweets_filename = "tweets.txt"
 
@@ -12,4 +11,4 @@ def test_empty():
 
 
 if __name__ == '__main__':
-    pytest.main("test_weibo_api.py")
+    pytest.main("test_twitter_api.py")
